@@ -1,0 +1,14 @@
+
+services:
+  retail-assistant:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stdin_open: true
+    tty: true
+    environment:
+      OLLAMA_HOST: ${OLLAMA_HOST:-http://host.docker.internal:11434}
+      CHAT_MODEL: ${CHAT_MODEL:-qwen3:1.7b}
+      EMBED_MODEL: ${EMBED_MODEL:-embeddinggemma:latest}
+    volumes:
+      - ./Data/online+retail/cleaned_sales.csv:/app/Data/online+retail/cleaned_sales.csv:ro

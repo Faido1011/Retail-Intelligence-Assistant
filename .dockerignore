@@ -1,0 +1,6 @@
+﻿.venv/
+.git/
+**/__pycache__/
+**/*.py[cod]
+**/*_backup.py
+Data/knowledge/chroma_db/

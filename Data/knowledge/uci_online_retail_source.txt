@@ -1,0 +1,27 @@
+Document Title: UCI Online Retail Dataset Source Record
+
+Document Type: External Dataset Source Record
+
+Source Organization: UCI Machine Learning Repository
+
+Dataset Name: Online Retail
+
+Local Source File: Online Retail.xlsx
+
+Purpose:
+This project uses the Online Retail dataset as the source of transaction records for retail sales analysis.
+
+Available fields:
+- InvoiceNo: invoice identifier.
+- StockCode: product stock code.
+- Quantity: quantity recorded for an invoice line.
+- InvoiceDate: date and time of the transaction, if present in the original file.
+- UnitPrice: unit price recorded for a product.
+- CustomerID: customer identifier, where available.
+- Country: country associated with the transaction.
+
+Project processing:
+The original Excel dataset is stored separately from the processed CSV file. The project uses Python and pandas to process the data and calculate sales summaries. The cleaned_sales.csv file is used by the retail assistant for numerical analysis.
+
+Evidence policy:
+This record identifies the dataset used by the project. Claims about the original dataset's publication details, collection methods, or licensing should be checked against the official UCI dataset page. Numerical sales claims must be calculated from the project data rather than inferred from this source record.

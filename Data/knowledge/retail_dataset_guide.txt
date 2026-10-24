@@ -1,0 +1,27 @@
+
+Document Title: Retail Dataset Guide
+Document Type: Dataset Documentation
+Domain: Retail Sales Analytics
+
+Purpose:
+This document describes the data used by the Retail Intelligence AI Assistant.
+
+Dataset:
+The project uses the Online Retail dataset stored in cleaned_sales.csv.
+
+Available information:
+- InvoiceNo: invoice identifier.
+- StockCode: product stock identifier.
+- Description: product description.
+- Quantity: quantity recorded on an invoice line.
+- InvoiceDate: date and time of the transaction.
+- UnitPrice: unit price recorded for the product.
+- CustomerID: customer identifier, where available.
+- Country: country associated with the transaction.
+- Revenue: revenue field used for sales analysis.
+
+Data handling:
+The application uses Python and pandas to load and analyse the CSV file. Numeric calculations, including total revenue and revenue grouped by country, are performed by Python rather than estimated by the language model.
+
+Evidence policy:
+Answers about sales figures must be supported by calculations from the dataset. General questions about this dataset should be answered using relevant source information. If the available documents do not support an answer, the application should state that sufficient evidence was not found.

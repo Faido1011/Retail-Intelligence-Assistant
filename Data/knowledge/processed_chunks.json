@@ -1,0 +1,56 @@
+[
+  {
+    "id": "retail_dataset_guide_chunk_1",
+    "source": "retail_dataset_guide.txt",
+    "document_type": "Dataset Documentation",
+    "chunk_index": 1,
+    "total_chunks": 3,
+    "char_count": 490,
+    "content": "Document Title: Retail Dataset Guide Document Type: Dataset Documentation Domain: Retail Sales Analytics Purpose: This document describes the data used by the Retail Intelligence AI Assistant. Dataset: The project uses the Online Retail dataset stored in cleaned_sales.csv. Available information: - InvoiceNo: invoice identifier. - StockCode: product stock identifier. - Description: product description. - Quantity: quantity recorded on an invoice line. - InvoiceDate: date and time of the"
+  },
+  {
+    "id": "retail_dataset_guide_chunk_2",
+    "source": "retail_dataset_guide.txt",
+    "document_type": "Dataset Documentation",
+    "chunk_index": 2,
+    "total_chunks": 3,
+    "char_count": 492,
+    "content": "quantity recorded on an invoice line. - InvoiceDate: date and time of the transaction. - UnitPrice: unit price recorded for the product. - CustomerID: customer identifier, where available. - Country: country associated with the transaction. - Revenue: revenue field used for sales analysis. Data handling: The application uses Python and pandas to load and analyse the CSV file. Numeric calculations, including total revenue and revenue grouped by country, are performed by Python rather than"
+  },
+  {
+    "id": "retail_dataset_guide_chunk_3",
+    "source": "retail_dataset_guide.txt",
+    "document_type": "Dataset Documentation",
+    "chunk_index": 3,
+    "total_chunks": 3,
+    "char_count": 418,
+    "content": "revenue and revenue grouped by country, are performed by Python rather than estimated by the language model. Evidence policy: Answers about sales figures must be supported by calculations from the dataset. General questions about this dataset should be answered using relevant source information. If the available documents do not support an answer, the application should state that sufficient evidence was not found."
+  },
+  {
+    "id": "uci_online_retail_source_chunk_1",
+    "source": "uci_online_retail_source.txt",
+    "document_type": "External Dataset Source Record",
+    "chunk_index": 1,
+    "total_chunks": 3,
+    "char_count": 496,
+    "content": "Document Title: UCI Online Retail Dataset Source Record Document Type: External Dataset Source Record Source Organization: UCI Machine Learning Repository Dataset Name: Online Retail Local Source File: Online Retail.xlsx Purpose: This project uses the Online Retail dataset as the source of transaction records for retail sales analysis. Available fields: - InvoiceNo: invoice identifier. - StockCode: product stock code. - Quantity: quantity recorded for an invoice line. - InvoiceDate: date and"
+  },
+  {
+    "id": "uci_online_retail_source_chunk_2",
+    "source": "uci_online_retail_source.txt",
+    "document_type": "External Dataset Source Record",
+    "chunk_index": 2,
+    "total_chunks": 3,
+    "char_count": 500,
+    "content": "code. - Quantity: quantity recorded for an invoice line. - InvoiceDate: date and time of the transaction, if present in the original file. - UnitPrice: unit price recorded for a product. - CustomerID: customer identifier, where available. - Country: country associated with the transaction. Project processing: The original Excel dataset is stored separately from the processed CSV file. The project uses Python and pandas to process the data and calculate sales summaries. The cleaned_sales.csv file"
+  },
+  {
+    "id": "uci_online_retail_source_chunk_3",
+    "source": "uci_online_retail_source.txt",
+    "document_type": "External Dataset Source Record",
+    "chunk_index": 3,
+    "total_chunks": 3,
+    "char_count": 463,
+    "content": "to process the data and calculate sales summaries. The cleaned_sales.csv file is used by the retail assistant for numerical analysis. Evidence policy: This record identifies the dataset used by the project. Claims about the original dataset's publication details, collection methods, or licensing should be checked against the official UCI dataset page. Numerical sales claims must be calculated from the project data rather than inferred from this source record."
+  }
+]
